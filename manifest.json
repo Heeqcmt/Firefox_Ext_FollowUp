@@ -1,0 +1,22 @@
+{
+
+    "manifest_version": 1,
+    "name": "FollowUp",
+    "version": "1.0",
+  
+    "description": "automatic update the bookmarks to the current page",
+  
+    "icons": {
+      "48": "icons/border-48.png"
+    },
+
+    "permissions":[
+        "bookmarks",
+        "tabs"
+    ],
+    "background":{
+        "scripts":["followUp.js"]
+    }
+  
+    
+  }
