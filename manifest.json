@@ -9,7 +9,8 @@
 
     "permissions":[
         "bookmarks",
-        "tabs"
+        "tabs",
+        "notifications"
     ],
     "background":{
         "scripts":["followUp.js"]
